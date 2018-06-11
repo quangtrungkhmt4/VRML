@@ -1,0 +1,49 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	0 0 0
+	children [
+		Shape {
+			geometry Box  {size 1 .05 .07}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation	0 0.0199 0
+	children [
+		Shape {
+			geometry Box  {size .9999 .01 .09}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation	0 -0.0199 0
+	children [
+		Shape {
+			geometry Box  {size .9999 .01 .09}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}

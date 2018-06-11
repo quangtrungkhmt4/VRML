@@ -1,0 +1,391 @@
+#VRML V2.0 utf8
+
+							#VRML V2.0 utf8
+
+
+# 2 thanh doc
+Transform {
+	translation	-1.5 10 -8
+	children [
+		Shape {
+		geometry Cylinder  {radius .045 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+	}
+]
+}
+
+Transform {
+	translation	3 10 -8
+	children [
+		Shape {
+		geometry Cylinder  {radius .045 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+
+Transform {
+	translation	-1.5 10 -6
+	children [
+		Shape {
+		geometry Cylinder  {radius .045 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+	}
+]
+}
+
+Transform {
+	translation	3 10 -6
+	children [
+		Shape {
+		geometry Cylinder  {radius .045 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+
+# duong cheo
+Transform {
+	translation	0.75 9.5 -8
+	rotation 0 0 1 1.55
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.45}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 9.5 -6
+	rotation 0 0 1 1.55
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.45}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 12.2 -8
+	rotation 0 0 1 1.55
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.45}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 12.2 -6
+	rotation 0 0 1 1.55
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.45}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 12.2 -7
+	rotation 1 0 2.2 1.55
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.9}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 12.2 -7
+	rotation 1 0 -2.2 1.59
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 4.9}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 10.8 -8
+	rotation 0 0 1 1.02
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 5.2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 10.8 -8
+	rotation 0 0 -1 1.05
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 5.08}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 10.8 -6
+	rotation 0 0 1 1.02
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 5.2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	0.75 10.8 -6
+	rotation 0 0 -1 1.05
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 5.08}
+		appearance Appearance {
+
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	3 9.5 -7
+	rotation 1 0 0 1.57
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 2.0}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	3 12.2 -7
+	rotation 1 0 0 1.57
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 2.0}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	-1.5 9.5 -7
+	rotation 1 0 0 1.57
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 2.0}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	-1.5 12.2 -7
+	rotation 1 0 0 1.57
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 2.0}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	-1.5 10.85 -7
+	rotation 1 0 0 .65
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 3.25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	-1.5 10.85 -7
+	rotation -1 0 0 .65
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 3.25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	3 10.85 -7
+	rotation 1 0 0 .65
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 3.25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	3 10.85 -7
+	rotation -1 0 0 .65
+	children [
+		Shape {
+		geometry Cylinder  {radius .03 height 3.25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+Transform {
+	translation	.75 9.5 -7
+	rotation 0 0 1 -0.01
+	children [
+		Shape {
+		geometry Box  {size 4.5 .01 2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}

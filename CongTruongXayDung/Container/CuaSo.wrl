@@ -1,0 +1,223 @@
+#VRML V2.0 utf8
+
+#cua trai
+Transform {
+	children [
+		DEF	MoCuaTrai CylinderSensor {
+			maxAngle 0
+			minAngle -2.34
+		}
+		DEF	CuaTrai Transform {
+			children [
+				Shape {
+					geometry Box {
+						size 0.1 1.95 0.1
+					}
+				}
+				Transform {
+					translation	0.35 0 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.6 0.2 0.05
+							}
+						}
+						Transform {
+							translation	0 0.925 0
+							children [
+								Shape {
+									geometry Box {
+										size 0.6 0.1 0.05
+									}
+								}
+							]
+						}
+						Transform {
+							translation	0 -0.925 0
+							children [
+								Shape {
+									geometry Box {
+										size 0.6 0.1 0.05
+									}
+								}
+							]
+						}
+						Transform {
+							translation	0.3 0 0
+							children [
+								Shape {
+									geometry Box {
+										size 0.05 1.95 0.05
+									}
+								}
+							]
+						}
+						Transform {
+							translation	-0.025 -0.475 0
+							children [
+								Shape {
+									geometry Box {
+										size 0.7 0.9 0.005
+									}
+									appearance Appearance {
+										material Material {
+											transparency 0.8
+										}
+									}
+								}
+							]
+						}
+						Transform {
+							translation	-0.025 0.475 0
+							children [
+								Shape {
+									geometry Box {
+										size 0.7 0.9 0.005
+									}
+									appearance Appearance {
+										material Material {
+											transparency 0.8
+										}
+									}
+								}
+							]
+						}
+						Transform {
+							translation	0.25 0 0
+							children [
+								Shape {
+									geometry Sphere	{
+										radius 0.05
+									}
+									appearance Appearance {
+										material Material {
+											diffuseColor .61 .61 .61
+											specularColor .77 .76 .76
+											ambientIntensity .14
+											shininess .9
+										}
+									}
+								}
+							]
+
+						}
+					]
+				}
+			]
+		}
+
+	]
+}
+
+#cua phai
+Transform {
+	translation	1.3 0 0
+	children [
+		DEF	MoCuaPhai CylinderSensor {
+			maxAngle 2.34
+			minAngle 0
+		}
+		DEF	CuaPhai Transform {
+			children [
+				Shape {
+					geometry Box {
+						size 0.1 1.95 0.1
+					}
+				}
+				Transform {
+					translation	-0.3 0 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.6 0.2 0.05
+							}
+						}
+					]
+				}
+				Transform {
+					translation	-0.6 0 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.05 1.95 0.05
+							}
+						}
+					]
+				}
+				Transform {
+					translation	-0.3 0.925 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.6 0.1 0.05
+							}
+						}
+					]
+				}
+				Transform {
+					translation	-0.3 -0.925 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.6 0.1 0.05
+							}
+						}
+					]
+				}
+				Transform {
+					translation	-0.3 0.475 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.7 0.9 0.005
+							}
+							appearance Appearance {
+								material Material {
+									transparency 0.8
+								}
+							}
+						}
+					]
+				}
+				Transform {
+					translation	-0.3 -0.475 0
+					children [
+						Shape {
+							geometry Box {
+								size 0.7 0.9 0.005
+							}
+							appearance Appearance {
+								material Material {
+									transparency 0.8
+								}
+							}
+						}
+					]
+				}
+				Transform {
+							translation	-0.55 0 0
+							children [
+								Shape {
+									geometry Sphere	{
+										radius 0.05
+									}
+									appearance Appearance {
+										material Material {
+											diffuseColor .61 .61 .61
+											specularColor .77 .76 .76
+											ambientIntensity .14
+											shininess .9
+										}
+									}
+								}
+							]
+
+						}
+			]
+		}
+
+	]
+}
+
+ROUTE MoCuaTrai.rotation_changed TO	CuaTrai.rotation
+ROUTE MoCuaPhai.rotation_changed TO	CuaPhai.rotation

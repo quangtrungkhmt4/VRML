@@ -1,0 +1,248 @@
+#VRML V2.0 utf8
+
+ Transform {
+	translation	0 0 0
+	children [
+		Shape {
+			geometry Box {size 3 .15 16}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+Transform {
+	translation	2.75 0 4.35
+	children [
+		Shape {
+			geometry Box {size 2.5 .15 5.2}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+Transform {
+	translation	2.75 0 -4.75
+	children [
+		Shape {
+			geometry Box {size 2.5 .15 4.5}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+
+Transform {
+	translation	5.5 0 0
+	children [
+		Shape {
+			geometry Box {size 3 .15 16}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+#cau thang
+Transform {
+	translation	1.9 .1 1.75
+	scale 0.5 .85 1
+	children [
+		Inline {url "Cau_thang.wrl"}
+	]
+}
+
+#cot tru phai
+DEF	cottru
+Transform {
+	children [
+		Transform {
+			translation	6.84 1.2 7.84
+			children [
+				Inline {url	"Cot_tru_nha_to.wrl"}
+			]
+		}
+
+		 Transform {
+			translation	6.84 1.2 4.34
+			children [
+				Inline {url	"Cot_tru_nha_to.wrl"}
+			]
+		}
+
+		 Transform {
+			translation	6.84 1.2 0.84
+			children [
+				Inline {url	"Cot_tru_nha_to.wrl"}
+			]
+		}
+
+		 Transform {
+			translation	6.84 1.2 -2.66
+			children [
+				Inline {url	"Cot_tru_nha_to.wrl"}
+			]
+		}
+
+		 Transform {
+			translation	6.84 1.2 -7.845
+			children [
+				Inline {url	"Cot_tru_nha_to.wrl"}
+			]
+		}
+	]
+}
+
+#cot tru trai
+Transform {
+	translation	-8.177 0 0
+	children [
+		USE	cottru
+	]
+}
+
+#cot tru giua
+Transform {
+	translation	1.345 1.2 4.34
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	4.155 1.2 4.34
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	1.345 1.2 -2.66
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	4.155 1.2 -2.66
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	1.345 1.2 7.84
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	4.155 1.2 7.84
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	1.345 1.2 -7.845
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+Transform {
+	translation	4.155 1.2 -7.845
+	children [
+		Inline {url	"Cot_tru_nha_to.wrl"}
+	]
+}
+
+# tran nha
+ Transform {
+	translation	0 2.5 0
+	children [
+		Shape {
+			geometry Box {size 3 .15 16}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+Transform {
+	translation	2.75 2.5 4.35
+	children [
+		Shape {
+			geometry Box {size 2.5 .15 5.2}
+			appearance Appearance {
+
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+Transform {
+	translation	2.75 2.5 -4.75
+	children [
+		Shape {
+			geometry Box {size 2.5 .15 4.5}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+
+
+Transform {
+	translation	5.5 2.5 0
+	children [
+		Shape {
+			geometry Box {size 3 .15 16}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}

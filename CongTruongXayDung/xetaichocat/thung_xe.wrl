@@ -1,0 +1,116 @@
+#VRML V2.0 utf8
+
+DEF	thungxe
+Transform {
+	children [
+		
+		Transform {
+			children [
+				Shape {
+					geometry Box {size 1 .015 .5}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0 .08 0.246
+			children [
+				Shape {
+					geometry Box {size 1 .15 .008}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0 .08 -0.246
+			children [
+				Shape {
+					geometry Box {size 1 .15 .008}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0.497 0.08 0
+			children [
+				Shape {
+					geometry Box {size .008 .15 .5}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	0.51 0.16 0
+			rotation 0 0 1 -1
+			children [
+				Shape {
+					geometry Box {size .008 .03 .5}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation	-0.53 -0.05 0
+			rotation 0 0 1 -.6
+			children [
+				Shape {
+					geometry Box {size .008 .13 .5}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+							ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+
+	]
+}
+
+DEF	time TimeSensor {
+	cycleInterval 10
+	loop TRUE
+}
+DEF	quay OrientationInterpolator {
+	key	[0.0, 0.5, 1.0]
+	keyValue [0.0 1.0 0.0 0.0, 0.0 1.0 1.0 3.14, 0.0 1.0 1.0 6.28]
+}
+ROUTE time.fraction_changed	TO quay.set_fraction
+ROUTE quay.value_changed TO	thungxe.rotation

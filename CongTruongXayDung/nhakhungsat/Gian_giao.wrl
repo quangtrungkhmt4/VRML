@@ -1,0 +1,141 @@
+#VRML V2.0 utf8
+
+
+#thanh doc
+Transform {
+	translation	-2.5 0 -1
+	children [
+		Shape {
+		geometry Cylinder  {radius .1 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+	}
+]
+}
+
+Transform {
+	translation	2.5 0 -1
+	children [
+		Shape {
+		geometry Cylinder  {radius .1 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+
+Transform {
+	translation	-2.5 0 1
+	children [
+		Shape {
+		geometry Cylinder  {radius .1 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+	}
+]
+}
+
+Transform {
+	translation	2.5 0 1
+	children [
+		Shape {
+		geometry Cylinder  {radius .1 height 5}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+
+
+#thanhngang
+DEF	khung 
+Transform {
+	children [
+Transform {
+	translation	0 -2 1
+	children [
+		Shape {
+		geometry Box  {size 5 0.2 0.2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	0 -2 -1
+	children [
+		Shape {
+		geometry Box  {size 5 .2 0.2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform {
+	translation	-2.5 -2 0
+	children [
+		Shape {
+		geometry Box  {size 0.2 .2 2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+Transform{
+		translation	2.5 -2 0
+	children [
+		Shape {
+		geometry Box  {size 0.2 .2 2}
+		appearance Appearance {
+			texture	ImageTexture {url "images/giangiao.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}
+]
+}
+Transform {
+	translation	0 4.3 0
+	children [
+		USE	khung]
+	}

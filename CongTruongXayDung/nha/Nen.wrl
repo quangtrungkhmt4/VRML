@@ -1,0 +1,124 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	0 0 0
+	children [
+		Shape {
+			geometry Box  {size 9 .15 5}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation	7 0 3
+	rotation 0 1 0 1.57
+	children [
+		Shape {
+			geometry Box  {size 11 .15 5}
+			appearance Appearance {
+				texture	ImageTexture {url "images/ximang.jpg"}
+									material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+#cot tru
+Transform {
+	translation	4.65 1 2.37
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	1.5 1 2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	1.5 1 -2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	4.65 1 8.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	9.335 1 8.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	9.335 1 2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	9.335 1 -2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+
+
+Transform {
+	translation	4.5 1 -2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	-4.345 1 2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+Transform {
+	translation	-4.345 1 -2.345
+	children [
+		Inline {url "Cot_tru.wrl"}
+	]
+}
+
+#tường
+Transform {
+	translation	-1.355 .5 2.345
+	children [
+		Shape {
+		geometry Box  {size 5.7 1 .15}
+		appearance Appearance {
+		texture	ImageTexture {url "images/gach.jpg"}
+							material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+		}
+		}
+	]
+}

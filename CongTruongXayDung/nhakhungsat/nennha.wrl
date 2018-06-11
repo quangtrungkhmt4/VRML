@@ -1,0 +1,176 @@
+#VRML V2.0 utf8
+#thanhngang
+DEF	thanhngang
+Transform {
+	children [
+		Shape {
+			geometry Box {size 10 0.1 0.1}
+			appearance Appearance {
+				texture	ImageTexture { url "images/giangiao.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
+Transform {
+	translation 0 0 3
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 2.8
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 2.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 2.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 2.2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 1.8 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 1.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 1.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 1.2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 1 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 0.8 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 0.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 0.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 0.2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 0
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation 0 0 -3
+	children [
+		USE	thanhngang ]
+	}
+	Transform {		
+	translation	0 0 -2.8
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -2.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -2.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -2.2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -1.8 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -1.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -1.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -1.2 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -1 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -0.8 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -0.6 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0  -0.4 
+	children [
+		USE	thanhngang ]
+	}
+	Transform {
+	translation	0 0 -0.2 
+	children [
+		USE	thanhngang ]
+	}
+
+
+
+

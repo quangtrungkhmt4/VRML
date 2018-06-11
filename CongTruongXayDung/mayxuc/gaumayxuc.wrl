@@ -1,0 +1,477 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	0 -.03 -.145
+	rotation 1 0 0 -.2
+	children [
+		Shape {
+			geometry Box {size 1 .01 .2}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 -1.2
+	translation	0 -.07 -.25
+	children [
+		Shape {
+			geometry Box {size 1 .01 .05}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+
+Transform {
+	rotation 1 0 0 -1.5
+	translation	0 -.115 -.26
+	children [
+		Shape {
+			geometry Box {size 1 .01 .05}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 -1.6
+	translation	0 -.18 -.26
+	children [
+		Shape {
+			geometry Box {size 1 .01 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+#Transform {
+#	rotation 0 0 1 1.57
+#	translation	.5 -.13 -.16
+#	children [
+#		Shape {
+#			geometry Cylinder {radius .1 height .01}
+#			appearance Appearance {
+#				texture	ImageTexture {url "images/sonvang.jpg"}
+#				material Material {
+#			   		ambientIntensity .0367
+#					shininess .09
+#				}
+#			}
+#		}
+#	]
+#}
+
+#Transform {
+#	rotation 0 0 1 1.57
+#	translation	-.5 -.13 -.16
+#	children [
+#		Shape {
+#			geometry Cylinder {radius .1 height .01}
+#			appearance Appearance {
+#				texture	ImageTexture {url "images/sonvang.jpg"}
+#				material Material {
+#			   		ambientIntensity .0367
+#					shininess .09
+#				}
+#			}
+#		}
+#	]
+#}
+
+Transform {
+	rotation 1 0 0 .3
+	translation	0 -.255 -.165
+	children [
+		Shape {
+			geometry Box {size 1 .01 .2}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 .3
+	translation	0 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 .3
+	translation	.1 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	.2 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	.3 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	.4 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	.484 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	-.484 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+Transform {
+	rotation 1 0 0 .3
+	translation	-.1 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	-.2 -.276 -.097
+	children [	
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	-.3 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+Transform {
+	rotation 1 0 0 .3
+	translation	-.4 -.276 -.097
+	children [
+		Shape {
+			geometry Box {size .03 .001 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/sonvang.jpg"}
+				material Material {
+			   		ambientIntensity .0367
+					shininess .09
+				}
+			}
+		}
+	]
+}
+
+#tamngang
+DEF tamngang Transform {
+	translation	0.4945 0 0
+	children [
+		
+		Transform {
+
+			translation	0 -.148 -.085
+			children [
+				Shape {
+					geometry Box {size .01 .265 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.148 -.105
+			children [
+				Shape {
+					geometry Box {size .01 .245 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.148 -.13
+			children [
+				Shape {
+					geometry Box {size .01 .2369 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.146 -.15
+			children [
+				Shape {
+					geometry Box {size .01 .228 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.144 -.175
+			children [
+				Shape {
+					geometry Box {size .01 .215 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.14235 -.195
+			children [
+				Shape {
+					geometry Box {size .01 .208 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.14235 -.21
+			children [
+				Shape {
+					geometry Box {size .01 .19 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.14235 -.23
+			children [
+				Shape {
+					geometry Box {size .01 .187 .025}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.145 -.239
+			children [
+				Shape {
+					geometry Box {size .01 .166 .024}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+		Transform {
+
+			translation	0 -.15 -.245
+			children [
+				Shape {
+					geometry Box {size .01 .151 .024}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   				ambientIntensity .0367
+							shininess .09
+						}
+					}
+				}
+			]
+		}
+	]
+}
+
+Transform{
+	translation	-.9885 0 0
+	children [
+		USE	tamngang
+	]
+}
+

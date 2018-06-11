@@ -1,0 +1,199 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		DEF trai Transform { 	
+			translation	-0.3 0 0
+			children [
+			DEF	cua Transform {
+					translation	0.3 0 0
+					children [
+					DEF	c1 Transform {
+							children [
+								Shape {
+									geometry Box {size 0.6 1 0.05}
+									appearance Appearance {
+									}
+								}
+							]
+						}
+					DEF	c2 Transform {
+							translation	0 1.15 0
+							children [
+								Shape {
+									geometry Box {size 0.4 1.3 0.02}
+									appearance Appearance {
+										material Material {
+											diffuseColor .361 .361 .169
+											specularColor .94 .94 .94
+											emissiveColor 0 .36 .27
+											ambientIntensity .847
+											shininess .024
+											transparency .745
+										}
+									}
+								}
+							]
+						}
+					DEF	c3 Transform {
+							translation	0.25 1.2 0
+							children [
+							DEF	b1 Shape {
+									geometry Box {size 0.1 1.4 0.05}
+									appearance Appearance {
+
+									}
+								}
+							]
+						}
+					DEF	c4 Transform {
+							translation	-0.25 1.2 0
+							children USE b1
+						}
+					DEF	c5 Transform {
+							translation	0 1.53 0
+							children [
+							DEF	k1 Shape {
+									geometry Box {size 0.4 0.05 0.05}
+									appearance Appearance {
+
+									}
+								}
+							]
+						}
+					DEF	c6 Transform {
+							translation	0 1.17 0
+							children USE k1
+						}
+					DEF	c7 Transform {
+							translation	0 0.83 0
+							children USE k1
+						}
+					DEF	c8 Transform {
+							translation	0 1.85 0
+							children [
+							Shape {
+									geometry Box {size 0.4 0.1 0.05}
+									appearance Appearance {
+						
+									}
+								}
+							]
+						}
+					]
+				}
+				Transform {
+					translation	0.55 0.5 0.01
+					rotation 1 0 0 1.57
+					children [
+					DEF ch Shape {
+						geometry Cylinder {
+						   height 0.1
+						   radius 0.02
+							}
+						appearance Appearance {
+							material Material {
+								diffuseColor .33 .3 .28
+								specularColor .31 .25 .13
+								ambientIntensity .687
+								shininess .1
+							}
+						}
+						}
+					]
+				}
+			]
+		}
+	DEF	cylSensor1 CylinderSensor {
+	maxAngle 0
+	minAngle -3.14
+	enabled	TRUE
+	}
+	]
+}
+Transform {
+	children [
+		DEF phai Transform {
+			translation	0.9 0 0
+			children [
+				Transform {
+					translation	-0.3 0 0
+					children [
+						USE	c1
+						USE	c2
+						USE	c3
+						USE	c4
+						USE	c5
+						USE	c6
+						USE	c7 
+						USE	c8
+						Transform {
+						translation	-0.25 0.5 0.01
+						rotation 1 0 0 1.57
+						children USE ch
+						}
+					]
+				}
+			]
+		}		
+		DEF	cylSensor2 CylinderSensor {
+		maxAngle 3.14
+		minAngle 0			
+		enabled	TRUE
+	}
+	]
+}	
+
+#khung
+ Transform {
+	translation	0.95 1 0
+	children [
+	DEF	kc1 Shape {
+			geometry Box {size 0.1 3 0.05}
+			appearance Appearance {
+
+			}
+		}
+	]
+}
+Transform {
+	translation	-0.35 1 0
+	children USE kc1
+}
+Transform {
+	translation	0.3 2.45 0
+	children [
+	DEF	kc2 Shape {
+			geometry Box {size 1.2 0.1 0.05}
+			appearance Appearance {
+
+			}
+		}
+	]
+}
+Transform {
+	translation	0.3 1.95 0
+	children USE kc2
+}
+ Transform {
+	translation	0.3 2.2 0
+	children [
+	 Shape {
+			geometry Box {size 1.2 0.4 0.02}
+			appearance Appearance {
+			material Material {
+				diffuseColor .361 .361 .169
+				specularColor .94 .94 .94
+				emissiveColor 0 .36 .27
+				ambientIntensity .847
+				shininess .024
+				transparency .745
+			}	
+			}
+		}   
+	]
+  
+}
+
+ROUTE cylSensor1.rotation_changed  TO trai.rotation
+ROUTE cylSensor2.rotation_changed TO phai.rotation

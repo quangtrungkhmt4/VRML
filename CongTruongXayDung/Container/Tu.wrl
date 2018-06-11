@@ -1,0 +1,157 @@
+#VRML V2.0 utf8
+
+DEF cua1 Transform{
+	children [
+		DEF	Cylsensor1 CylinderSensor {
+			maxAngle 0
+			minAngle -1.45
+			enabled	TRUE }
+
+ DEF cua Transform {
+	 	translation	-8.75 0 0
+	children [
+		
+				 Transform {
+					  	translation	8.75 0 0
+				children [
+					Shape {
+						appearance DEF go Appearance {
+							texture	ImageTexture {url "images\go2.jpg"}
+						}
+						geometry Box {size 17.5 30 1 }
+					}
+				]
+			}
+		]
+	}
+		
+
+
+	]
+	ROUTE Cylsensor1.rotation_changed TO cua.rotation
+}
+
+DEF cua2 Transform{
+	translation	17.5 0 0
+	children [
+		DEF	Cylsensor2 CylinderSensor {
+			maxAngle 1.45
+			minAngle 0
+			enabled	TRUE }
+
+ DEF cuat Transform {
+	 	translation	8.75 0 0
+	children [
+		
+				 Transform {
+					  	translation	-8.75 0 0
+				children [
+					Shape {
+						geometry Box {size 17.5 30 1}
+						appearance USE go
+					}
+				]
+			}
+		]
+	}
+		
+
+
+	]
+	ROUTE Cylsensor2.rotation_changed TO cuat.rotation
+}
+
+Transform {
+	translation	-8.75 0 -7.5
+	children [
+	DEF canh1 Shape {
+			appearance USE go
+			geometry Box {size 1 30 15}
+
+		}
+	]
+}
+
+Transform {
+	translation 26.25 0 -7.5
+	children [
+		USE	canh1
+	]
+}
+
+#mattren
+Transform {
+	translation	8.8 15 -7.5
+	children [
+		DEF	mat Shape {
+			appearance USE go
+			geometry Box {size 38 1 16 }
+		}
+	]
+}
+
+#matduoi
+Transform {
+	translation	8.8 -15 -7.5
+	children [
+		USE	mat
+	]
+}
+
+#matsau
+Transform {
+	translation	8.5 0 -15
+	children [
+		Shape {
+			appearance USE go
+			geometry Box {size 36 30 1 }
+		}
+	]
+}
+
+#canhgiua
+Transform {
+	translation	8.75 0 -7.5
+	children [
+		Shape {
+			 appearance USE	go
+			geometry Box {size 1 30 15 }
+		}
+	]
+}
+
+#thanhngang1
+Transform {
+	translation	0 10 -5
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .37 .37 .37
+					specularColor .72 .89 .89
+					ambientIntensity .1
+					shininess .13
+				}
+			}
+			geometry Box {size 17 1 1}
+		}
+	]
+}
+
+#thanhngang2
+Transform {
+	translation	17 10 -5
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .37 .37 .37
+					specularColor .72 .89 .89
+					ambientIntensity .1
+					shininess .13
+				}
+			}
+			geometry Box {size 17 1 1}
+		}
+	]
+}

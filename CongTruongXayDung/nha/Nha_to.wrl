@@ -1,0 +1,304 @@
+#VRML V2.0 utf8
+
+#tang 1
+Transform {
+	children [
+		Inline {url "Tang_mot_nha_to.wrl"}
+	]
+}
+#tang 2
+Transform {
+	translation	0 2.5 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 3
+Transform {
+	translation	0 5 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 4
+Transform {
+	translation	0 7.5 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 5
+Transform {
+	translation	0 10 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 7
+Transform {
+	translation	0 12.5 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 8
+Transform {
+	translation	0 15 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 9
+Transform {
+	translation	0 17.5 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+#tang 10
+Transform {
+	translation	0 20 0
+	children [
+		Inline {url "Tang_tren_nha_cao.wrl"}
+	]
+}
+
+#noc
+ Transform {
+	translation	0 22.5 0
+	children [
+		Inline {url "noc_nha.wrl"}
+	]
+}
+
+
+
+# gian giao	trai
+DEF	giangiaotrai
+Transform {
+	children [
+			DEF	giangiao
+			Transform {
+				translation	1.43 3.2 -6.5
+				children [
+					Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 -7.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 -6 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 -4.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 -3 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 -1.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 0 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 1.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 3 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 4.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 6 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 7.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 9 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 10.5 0
+						children [
+							Inline {url "giangiao/Gian_giao.wrl"}
+						]
+					}
+					 Transform {
+						rotation 0 1 0 1.57
+						scale .5 .5 .5
+						translation	0 12 0
+						children [
+							Inline {url "giangiao/Gian_giao1.wrl"}
+						]
+					}
+				]
+			}
+
+			Transform {
+				translation	 0 0 2.2
+				children [USE giangiao]
+			}
+			Transform {
+				translation	 0 0 4.4
+				children [USE giangiao]
+			}
+			Transform {
+				translation	 0 0 6.6
+				children [USE giangiao]
+			}
+			Transform {
+				translation	 0 0 8.8
+				children [USE giangiao]
+			}
+			Transform {
+				translation	 0 0 11
+				children [USE giangiao]
+			}
+			Transform {
+				translation	 0 0 13.2
+				children [USE giangiao]
+			}
+			Transform {
+				scale 1 1 .22
+				translation	 0 0 9.25
+				children [USE giangiao]
+			}
+	]
+}
+
+# gian giao phai
+Transform {
+	translation	9.67 0 0 
+	children [
+		USE	giangiaotrai
+	]
+}
+
+#gian giao giua
+DEF	giangiua
+Transform {
+	children [
+		Transform {
+			scale 1 1 .22
+			translation	 0 0 9.77
+				children [USE giangiao]
+			}
+		Transform {
+			scale 1 1 .22
+			translation	 1 0 9.77
+				children [USE giangiao]
+			}
+		Transform {
+			scale 1 1 .22
+			translation	 2 0 9.77
+				children [USE giangiao]
+			}
+		Transform {
+			scale 1 1 .22
+			translation	 3 0 9.77
+				children [USE giangiao]
+			}
+	]
+}
+
+ Transform {
+	translation	6.67 0 0
+	children [
+		USE	giangiua
+	]
+}
+#gian giua lom
+ Transform {
+	scale .6 1 1
+	translation	3.1 0 -1
+	children [
+		USE	giangiua
+	]
+}
+
+ Transform {
+	translation	6.67 0 -16.53
+	children [
+		USE	giangiua
+	]
+}
+
+ Transform {
+	translation	0 0 -16.53
+	children [
+		USE	giangiua
+	]
+}
+
+#gian giua lom
+ Transform {
+	scale .6 1 1
+	translation	3.1 0 -15.53
+	children [
+		USE	giangiua
+	]
+}
+
+

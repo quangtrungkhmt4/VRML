@@ -1,0 +1,283 @@
+#VRML V2.0 utf8
+
+DEF	motbenxich
+Transform {
+	children [
+		DEF	khung
+		Transform {
+			children [
+				Transform {
+					children [
+						Shape {
+							geometry Box {size 1 .15 .1}
+							appearance Appearance {
+								material Material {diffuseColor .9 .9 .9}
+							}
+						}
+					]
+				}
+
+				Transform {
+					translation	-.5 0 0 
+					rotation 1 0 0 1.57
+					children [
+						Shape {
+							geometry Cylinder {radius .1 height .12}
+							appearance Appearance {
+								material Material {diffuseColor .9 .9 .9}
+							}
+						}
+					]
+				}
+
+				Transform {
+					translation	.5 0 0 
+					rotation 1 0 0 1.57
+					children [
+						Shape {
+							geometry Cylinder {radius .1 height .12}
+							appearance Appearance {
+								material Material {diffuseColor .9 .9 .9}
+							}
+						}
+					]
+				}
+	
+			]
+		}
+
+		DEF	xich
+		Transform {
+			children [
+				DEF	xichtren
+				Transform {
+					children [
+						DEF	matxich
+						Transform {
+							translation	-.5 .1 0
+							children [
+								Shape {
+									geometry Box{size .05 .007 .135}
+									appearance Appearance {
+										texture	ImageTexture {url "images/sonvang.jpg"}
+									}
+								}
+							]
+						}
+						Transform {
+							translation	.051 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.102 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.153 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.204 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.255 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.306 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.357 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.408 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.459 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.51 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.561 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.612 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.663 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.714 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.765 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.816 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.867 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.918 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	.969 0 0
+							children [
+								USE	matxich
+							]
+						}
+						Transform {
+							translation	1 0 0
+							children [
+								USE	matxich
+							]
+						}
+					]
+				}
+
+				Transform {
+					translation	0 -.2 0
+					children [
+						USE	xichtren
+					]
+				}
+
+		
+			DEF	congben
+			Transform	{
+				children [
+						DEF	cong
+						Transform {
+							children [
+								Transform {
+									rotation 0 0 1 -.4
+									translation	.97 -.197 0
+									children [
+										USE	matxich
+									]
+								}
+								Transform {
+									rotation 0 0 1 -.9
+									translation	.82 -.395 0
+									children [
+										USE	matxich
+									]
+								}
+
+
+								Transform {
+									rotation 0 0 1 -1.4
+									translation	.59 -.49 0
+									children [
+										USE	matxich
+									]
+								}
+							]
+						}
+
+						Transform {
+							rotation 1 0 0 3.14
+							children[
+								USE	cong
+							]
+						}
+				]
+			}  
+
+			Transform {
+				rotation 0 1 0 3.14
+				children [
+					USE	congben
+				]
+			}
+
+
+
+
+			]
+		}
+
+	]
+}
+
+Transform {
+	translation	0 0 -.8
+	children [
+		USE	motbenxich
+	]
+}
+
+Transform {
+	translation	0 0 -.4
+	children [
+		Shape {
+			geometry Box {size .35 .15 .8}
+			appearance Appearance {
+				material Material {diffuseColor .9 .9 .9}
+			}
+		}
+	]
+}
+Transform {
+	translation	0 .03 -.4
+	children [
+		Shape {
+			geometry Cylinder {radius .16 height .15}
+			appearance Appearance {
+				material Material {diffuseColor .9 .9 .9}
+			}
+		}
+	]
+}

@@ -1,0 +1,259 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+
+		# cot 1
+		Transform {
+			translation	0 2 0
+			children [
+				Shape {
+				geometry Box  {size .05 4 .05}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		#cot 2
+		Transform {
+			translation	.25 2 0
+			children [
+				Shape {
+				geometry Box  {size .05 4 .05}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		#cot 3
+		Transform {
+			translation	0.25 2 .25
+			children [
+				Shape {
+				geometry Box  {size .05 4 .05}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+		# cot 4
+		Transform {
+			translation	0 2 .25
+			children [
+				Shape {
+				geometry Box  {size .05 4 .05}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		# xiên chéo
+		Transform {
+			children [
+			Transform {
+			translation	.001 .1 -.001
+			children [Inline {url "duongcheo.wrl"}]
+			}
+
+			Transform {
+			translation	0 .1 -.245
+			children [Inline {url "duongcheo.wrl"}]
+			}
+			]
+		}
+
+		Transform {
+			translation	0 0 .25
+			rotation 0 1 0 1.57
+			children [
+			Transform {
+			translation	0 .1 0
+			children [Inline {url "duongcheo.wrl"}]
+			}
+
+			Transform {
+			translation	0 .1 -.25
+			children [Inline {url "duongcheo.wrl"}]
+			}
+			]
+		}
+
+
+
+		Transform {
+			translation	.125 .5 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 1 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 1.5 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 2 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 2.5 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 3 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 3.5 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation	.125 4 .125
+			children [
+				Shape {
+				geometry Box  {size .25 .01 .25}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	]
+}
+

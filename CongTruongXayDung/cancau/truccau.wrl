@@ -1,0 +1,584 @@
+#VRML V2.0 utf8
+
+
+Transform {
+	translation	0 4.25 .2
+	children [
+		Shape {
+			geometry Box  {size .9 .1 .5}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation 0 4.5 .2
+	rotation 1 0 0 1.6
+	children [
+		Inline {url "thancau.wrl"}
+	]
+}
+
+
+Transform {
+	translation 0 4.25 .06
+	scale 1.1 .2 1
+	children [
+		Inline {url "thancau.wrl"}
+	]
+}
+
+
+Transform {
+	translation .137 5 .18
+	children [
+		Shape {
+			geometry Box  {size .2 .5 .2}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation .137 5.3 .18
+	children [
+		Shape {
+			geometry Box  {size .15 .2 .15}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation .137 5.5 .18
+	children [
+		Shape {
+			geometry Box  {size .1 .2 .1}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation .137 5.6 .18
+	children [
+		Shape {
+			geometry Box  {size .05 .2 .05}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+
+# day
+Transform {
+	translation .19 5.05 1.55
+	rotation 1 0.03 0 2
+	children [
+		Shape {
+			geometry Cylinder  {radius .008 height 3}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation .06 5.05 1.55
+	rotation 1 -0.03 0 2
+	children [
+		Shape {
+			geometry Cylinder  {radius .008 height 3}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+
+Transform {
+	translation 0 4.52 -1
+	scale 1 .3 1
+	rotation 1 0 0 1.6
+	children [
+		Inline {url "thancau.wrl"}
+	]
+}
+
+Transform {
+	translation .125 4.395 -1
+	children [
+		Shape {
+			geometry Box  {size .35 .4 .3}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+# day
+Transform {
+	translation .19 5.1 -.37
+	rotation 1 0.03 0 -2.4
+	children [
+		Shape {
+			geometry Cylinder  {radius .008 height 1.6}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+Transform {
+	translation .085 5.1 -.37
+	rotation 1 -0.04 0 -2.4
+	children [
+		Shape {
+			geometry Cylinder  {radius .008 height 1.6}
+			appearance Appearance {
+				texture	ImageTexture {url "images/son.png"}
+				material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+			}
+	]
+}
+
+#phòng điều khiển
+Transform {
+	translation	-.4 2.45 .2
+	children [
+		Transform {
+			translation 0 2 0
+			children [
+				Shape {
+					geometry Box  {size .02 .4 .45}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation 0.3 2 0
+			children [
+				Shape {
+				geometry Box  {size .02 .4 .45}
+				appearance Appearance {
+					texture	ImageTexture {url "images/son.png"}
+					material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+				}
+				}
+			]
+		}
+
+		Transform {
+			translation 0.15 2.19 0
+			children [
+				Shape {
+					geometry Box  {size .3 .02 .45}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+					}
+			]
+		}
+
+		Transform {
+			translation 0.15 2 -.22
+			children [
+				Shape {
+					geometry Box  {size .3 .4 .02}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+					}
+			]
+		}
+
+		Transform {
+			translation 0.15 1.9 0.22
+			children [
+				Shape {
+					geometry Box  {size .3 .2 .02}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+					}
+			]
+		}
+
+	]
+}
+
+
+#moc keo
+DEF	fullmockeo
+Transform {
+	translation	-.02 1.98 2
+	children [
+		Transform {
+			translation 0.15 2.19 0
+			children [
+				Shape {
+					geometry Box  {size .27 .02 .07}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation 0.02 2.195 0
+			children [
+				Shape {
+					geometry Box  {size .02 .04 .065}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation .28 2.195 0
+			children [
+				Shape {
+					geometry Box  {size .02 .04 .07}
+					appearance Appearance {
+						texture	ImageTexture {url "images/son.png"}
+						material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+				}
+			]
+		}
+		
+		#Móc treo
+		DEF	moctreo
+		Transform {
+			children [
+				#day
+				DEF	day
+				Transform {
+					children [
+						Transform {
+							translation 0.08 1.34 0
+							rotation 0 0 -1 3.15
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 1.8}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   							ambientIntensity .0367
+										shininess .09
+									}
+									}
+									}
+							]
+						}
+
+						Transform {
+							translation .22 1.34 0
+							rotation 0 0 1 3.15
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 1.8}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   							ambientIntensity .0367
+										shininess .09
+									}
+									}
+									}
+							]
+						}
+					]
+				}
+
+				Transform {
+					translation .15 0.5 0
+					rotation 1 0 0 4.65
+					children [
+						Shape {
+							geometry Cylinder  {radius .13 height 0.04}
+							appearance Appearance {
+								texture	ImageTexture {url "images/son.png"}
+								material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+							}
+							}
+					]
+				}
+
+				# móc
+				DEF	moc
+				Transform {
+					translation	 0.01 .4 0
+					children [
+						Transform {
+							translation .15 0 0
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 0.1}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+									}
+									}
+							]
+						}
+
+						Transform {
+							translation .19 -.088 0
+							rotation  0 0 1 .9
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 0.1}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+									}
+									}
+							]
+						}
+						Transform {
+							translation .22 -.15 0
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 0.1}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+									}
+									}
+							]
+						}
+						Transform {
+							translation .19 -.21 0
+							rotation  0 0 -1 .9
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 0.1}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+									}
+									}
+							]
+						}
+						Transform {
+							translation .11 -.23 0
+							rotation  0 0 1 .9
+							children [
+								Shape {
+									geometry Cylinder  {radius .008 height 0.1}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+										material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+									}
+									}
+							]
+						}
+
+
+
+					]
+				}
+
+				# vật liệu
+
+				Transform {
+					rotation 0 1 0 1.57
+					translation	0.1 -.2 3.05
+					children [
+						Transform {
+							translation	3 0 0
+							scale 2 2 2
+							children [
+								Inline {url "thanh_sat.wrl"}
+							]
+						}
+						Transform {
+							translation	3 0 .18 
+							scale 2 2 2
+							children [
+								Inline {url "thanh_sat.wrl"}
+							]
+						}
+						Transform {
+							rotation 0 0 1 -0.785
+							translation	2.8 .2 .1
+							children [
+								Shape {
+									geometry Cylinder {radius .008 height .7}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+									}
+								}
+							]
+						}
+						Transform {
+							rotation 0 0 1 0.785
+							translation	3.27 .2 .1
+							children [
+								Shape {
+									geometry Cylinder {radius .008 height .7}
+									appearance Appearance {
+										texture	ImageTexture {url "images/son.png"}
+									}
+								}
+							]
+						}
+					]
+				}
+
+			]
+		}
+
+		Transform {
+			children [
+				USE	day
+			]
+		}
+
+
+
+	]
+}
+
+
+DEF timer TimeSensor {
+	cycleInterval 10
+	loop TRUE
+}
+DEF timer2 TimeSensor {
+	cycleInterval 30
+	loop TRUE
+}
+DEF daiday PositionInterpolator {
+	key [ 0 1 ]
+	keyValue [0 -1.3 0, 0 0 0]
+}
+DEF dichuyen PositionInterpolator {
+	key [ 0 1 ]
+	keyValue [-.02 1.945 2, -.02 1.945 3.7]
+}
+
+DEF si ScalarInterpolator {
+	key [ 0 0.5 1]
+	keyValue [0 1 0]
+}
+DEF si2 ScalarInterpolator {
+	key [ 0 .5 1]
+	keyValue [0 1 0]
+}
+
+ROUTE timer.fraction_changed TO si.set_fraction
+ROUTE timer2.fraction_changed TO si2.set_fraction
+ROUTE si.value_changed TO daiday.set_fraction
+ROUTE daiday.value_changed TO moctreo.set_translation
+ROUTE si2.value_changed TO dichuyen.set_fraction
+ROUTE dichuyen.value_changed TO fullmockeo.set_translation

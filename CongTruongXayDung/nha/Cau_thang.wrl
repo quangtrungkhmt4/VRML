@@ -1,0 +1,131 @@
+#VRML V2.0 utf8
+Group {
+	children [
+		Transform {
+			translation	0.5 0 0
+			children [
+				DEF	BAC1 Shape {
+					appearance Appearance {
+						texture ImageTexture {
+						url	"images/gachcauthang.jpg"
+						}
+											material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+
+					geometry Box {
+						size	2.4 0.2 0.25
+					}
+				}
+			]
+		}
+		Transform {
+			translation	0.5 0.2 -0.25
+			children [
+				USE	BAC1
+				
+			]
+		}
+			Transform {
+			translation	0.5 0.4 -0.5
+			children [
+				USE	BAC1
+			]
+		}
+			Transform {
+			translation	0.5 0.6 -0.75
+			children [
+				USE	BAC1
+			]
+		}
+			Transform {
+			translation	0.5 0.8 -1
+			children [
+				USE	BAC1
+			]
+		}
+			Transform {
+			translation	0.5 1 -1.25
+			children [
+				USE	BAC1
+			]
+		}
+			Transform {
+			translation	0.5 1.2 -1.5
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	0.5 1.4 -2.9
+			children [
+				DEF them Shape {
+					appearance Appearance {
+						texture ImageTexture {
+						url	"images/gachcauthang.jpg"
+						}
+											material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+					}
+					geometry Box {
+						size	2.4 0.2 2.7
+					}
+				}
+			]
+		}
+	
+		#ben phai
+		Transform {
+			translation	2.9 1.4 -2.9
+			children [
+				USE	them
+			]
+		}
+		Transform {
+			translation	2.95 1.6 -1.5
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation 2.95 1.8 -1.25
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	2.95 2 -1
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	2.95 2.2 -0.75
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	2.95 2.4 -0.5
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	2.95 2.6 -0.25
+			children [
+				USE	BAC1
+			]
+		}
+		Transform {
+			translation	2.95 2.8 0
+			children [
+				USE	BAC1
+			]
+		}
+	]
+}

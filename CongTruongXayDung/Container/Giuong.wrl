@@ -1,0 +1,106 @@
+#VRML V2.0 utf8
+#thanh_ngang_truoc
+Transform {
+	children [
+		Shape {
+			 appearance DEF maugiuong Appearance {
+				 material Material {
+					diffuseColor .278 .141 .0784
+					specularColor .31 .14 .27
+					ambientIntensity .04
+					shininess .1
+				}
+			}
+
+			geometry Box {size 1.5 0.5 0.1 }
+		}
+	]
+}
+#chan_truoc_1
+Transform {
+	translation	-0.65 -0.55 0
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.2 0.6 .1}
+		}
+	]
+}
+#chan_truoc_2
+Transform {
+	translation	0.65 -0.55 0
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.2 0.6 .1}
+		}
+	]
+}
+#thanh_doc_1
+Transform {
+	translation	-0.65 -0.2 1
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.1 0.3 2}
+		}
+	]
+}
+#thanh_doc_2
+Transform {
+	translation	0.65 -0.2 1
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.1 0.3 2}
+		}
+	]
+}
+#mat_giuong
+Transform {
+	rotation 0 1 0 1.57
+	translation	0 -0.2 1
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 0.8 0.8 0.8
+			}}
+			geometry Box {size 2 0.1 1.3}
+		
+		}
+	]
+}
+#thanh_ngang_sau
+Transform {
+	translation	0 0 2
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 1.5 0.5 0.1 }
+		}
+	]
+}
+
+#chan1sau
+Transform {
+	translation	-0.65 -0.55 2
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.2 0.6 .1}
+		}
+	]
+}
+#chan2sau
+Transform {
+	translation	0.65 -0.55 2
+	children [
+		Shape {
+			appearance USE maugiuong
+			geometry Box {size 0.2 0.6 .1}
+		}
+	]
+}
+
+

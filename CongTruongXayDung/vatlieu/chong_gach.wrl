@@ -1,0 +1,139 @@
+#VRML V2.0 utf8
+
+DEF	xapgach
+Transform {
+	children [
+	
+		DEF	hanggach
+		Transform {
+			children [
+				Transform {
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 0.041
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+
+				Transform {
+					translation	0 0 0.082
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .123
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .164
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .205
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .246
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .287
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+				Transform {
+					translation	0 0 .328
+					children [
+						Inline {url "vien_gach.wrl"}
+					]
+				}
+			]
+		}
+
+		Transform {
+			translation	.081 0 0
+			children [
+				USE	hanggach
+			]
+		}
+
+		Transform {
+			translation	.162 0 0
+			children [
+				USE	hanggach
+			]
+		}
+
+		Transform {
+			translation	.243 0 0
+			children [
+				USE	hanggach
+			]
+		}
+		Transform {
+			translation	.324 0 0
+			children [
+				USE	hanggach
+			]
+		}
+	
+	]
+}
+
+
+		Transform {
+			translation	0 0.0202 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.0404 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.0606 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.0808 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.101 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.1212 0
+			children [
+				USE	xapgach
+			]
+		}
+		Transform {
+			translation	0 0.1414 0
+			children [
+				USE	xapgach
+			]
+		}

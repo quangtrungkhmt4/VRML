@@ -1,0 +1,99 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0 0.095
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0 0.19
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0 0.285
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0 0.38
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+
+
+Transform {
+	translation	0 0.05 .0475
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.05 .1425
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.05 .2375
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.05 .3325
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+
+
+Transform {
+	translation	0 0.1 .095
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.1 .19
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.1 .285
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+
+
+
+Transform {
+	translation	0 0.15 .1425
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	0 0.15 .2375
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}
+
+Transform {
+	translation	0 0.2 .19
+	children [
+		Inline {url "thanh_sat.wrl"}
+	]
+}

@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Shape {
+			geometry Box { size	10.4 0.01 8.4}
+			appearance Appearance {
+				texture	ImageTexture { url "images/luoi.jpg"}
+								material Material {
+			   			ambientIntensity .0367
+						shininess .09
+					}
+			}
+		}
+	]
+}
