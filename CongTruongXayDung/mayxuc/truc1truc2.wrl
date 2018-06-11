@@ -1,0 +1,31 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Inline {url "truccau1.wrl"}
+	]
+}
+DEF	truc2
+Transform {
+	translation	0 .25 0
+	children [
+		Transform {
+		rotation 0 0 1 -1.9
+		translation	-.55 .4 0
+		children [
+			Inline {url "truccau2.wrl"}
+		]
+	}
+	]
+}
+
+DEF	time TimeSensor {
+	cycleInterval 10
+	loop TRUE
+}
+DEF	quay OrientationInterpolator {
+	key	[0.0,0.5,1.0]
+	keyValue [0 0 1 0,0 0 1 1,0 0 1 -6.28318530718]
+}
+ROUTE time.fraction_changed	TO quay.set_fraction
+ROUTE quay.value_changed TO	truc2.rotation

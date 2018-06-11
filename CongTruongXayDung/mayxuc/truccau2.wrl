@@ -1,0 +1,169 @@
+#VRML V2.0 utf8
+
+DEF c1
+Transform {
+	children [
+		Transform {
+			translation	0 0 0
+			children [
+				Shape {
+					geometry Box  {size 1 .1 .07}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+		Transform {
+			translation	0 -.051 0
+			rotation 0 0 1 -0.1
+			children [
+				Shape {
+					geometry Box  {size 1 .1 .07}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			translation	0 0.03 0
+			rotation 0 0 1 0.1
+			children [
+				Shape {
+					geometry Box  {size .9 .05 .06}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			translation	0.495 -.05 0
+			rotation 0 0 1 0.72
+			children [
+				Shape {
+					geometry Box  {size .14 .14 .07}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+	]
+}
+
+
+		Transform {
+			translation	0.3 -.13 .035
+			children [
+				Shape {
+					geometry Box  {size .05 .1 .01}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+		Transform {
+			translation	0.3 -.13 -.035
+			children [
+				Shape {
+					geometry Box  {size .05 .1 .01}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			rotation 0 0 1 1.47 
+			translation	0.15 -.15 0
+			children [
+				Shape {
+					geometry Cylinder  {radius .03 height .4}
+					appearance Appearance {
+						material Material {
+								diffuseColor  .1 .1 .1
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			rotation 0 0 1 1.47 
+			translation	-.25 -.11 0
+			children [
+				Shape {
+					geometry Cylinder  {radius .02 height .6}
+					appearance Appearance {
+						material Material {
+								diffuseColor  .9 .9 .9
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			translation	-.5  0 .035
+			children [
+				Shape {
+					geometry Box  {size .1 .1 .01}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+		Transform {
+			translation	-.5  0 -.035
+			children [
+				Shape {
+					geometry Box  {size .1 .1 .01}
+					appearance Appearance {
+						texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}

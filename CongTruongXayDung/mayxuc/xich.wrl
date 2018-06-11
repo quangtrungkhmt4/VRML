@@ -274,7 +274,19 @@ Transform {
 	translation	0 .03 -.4
 	children [
 		Shape {
-			geometry Cylinder {radius .16 height .15}
+			geometry Cylinder {radius .16 height .18}
+			appearance Appearance {
+				material Material {diffuseColor .9 .9 .9}
+			}
+		}
+	]
+}
+
+Transform {
+	translation	0 .12 -.4
+	children [
+		Shape {
+			geometry Box {size 1.05 .01 .65}
 			appearance Appearance {
 				material Material {diffuseColor .9 .9 .9}
 			}
