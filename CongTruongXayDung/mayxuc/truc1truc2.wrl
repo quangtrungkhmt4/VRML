@@ -2,22 +2,28 @@
 
 Transform {
 	children [
-		Inline {url "truccau1.wrl"}
+			Transform {
+			translation	-.2 0.5 0
+			rotation 0 0 1 2
+			children [
+				Inline {url "truccau1.wrl"}
+			]
+		}
 	]
 }
-DEF	truc2
+DEF	c1
 Transform {
-	translation	0 .25 0
 	children [
-		Transform {
-		rotation 0 0 1 -1.9
-		translation	-.55 .4 0
-		children [
-			Inline {url "truccau2.wrl"}
-		]
-	}
+			Transform {
+			translation	-.2 0 0
+			children [
+				Inline {url "truc2gau.wrl"}
+			]
+		}
 	]
 }
+
+
 
 DEF	time TimeSensor {
 	cycleInterval 10
@@ -28,4 +34,6 @@ DEF	quay OrientationInterpolator {
 	keyValue [0 0 1 0,0 0 1 1,0 0 1 -6.28318530718]
 }
 ROUTE time.fraction_changed	TO quay.set_fraction
-ROUTE quay.value_changed TO	truc2.rotation
+ROUTE quay.value_changed TO	c1.rotation
+
+

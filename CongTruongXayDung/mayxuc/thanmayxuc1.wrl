@@ -47,4 +47,100 @@ Transform {
 }
 
 
+Transform {
+	translation	-20 17 -43
+	scale 50 50 50
+	children [
+		Shape {
+		geometry Box {size 1 .2 .25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   	ambientIntensity .0367
+				shininess .09
+			}
+		}
+
+	}
+]
+}
+
+Transform {
+	translation	-20 17 -57
+	scale 50 50 50
+	children [
+		Shape {
+		geometry Box {size 1 .2 .25}
+		appearance Appearance {
+			texture	ImageTexture {url "images/sonvang.jpg"}
+						material Material {
+			   	ambientIntensity .0367
+				shininess .09
+			}
+		}
+
+	}
+]
+}
+
+DEF	truc
+Transform {
+	rotation 0 0 1 .4
+	children [
+		Transform {
+			translation	-90 110 -50
+			rotation 1 1 0 3.14
+			scale 70 70 70
+			children [
+				Inline {
+					url	"truc1truc2.wrl"
+				}
+			]
+		}
+	]
+}
+
+DEF	pittong
+Transform {
+	translation	-40 40 -50
+	rotation 0 0 1 -1
+	scale 60 60 60
+	children [
+			Transform {
+			rotation 0 0 1 1.47 
+			translation	0.15 -.15 0
+			children [
+				Shape {
+					geometry Cylinder  {radius .03 height .4}
+					appearance Appearance {
+						material Material {
+								diffuseColor  .1 .1 .1
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+
+		Transform {
+			rotation 0 0 1 1.47 
+			translation	-.25 -.11 0
+			children [
+				Shape {
+					geometry Cylinder  {radius .02 height .6}
+					appearance Appearance {
+						material Material {
+								diffuseColor  .9 .9 .9
+			   					ambientIntensity .0367
+								shininess .09
+							}
+					}
+					}
+			]
+		}
+	]
+}
+
+
 

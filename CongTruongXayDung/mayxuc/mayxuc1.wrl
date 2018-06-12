@@ -1,0 +1,18 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Transform {
+			translation	0 1 0
+			children [Inline {url "thanmayxuc1.wrl"}]
+		}
+	]
+}
+Transform {
+	children [
+		Transform {
+			scale 100 100 100
+			children [Inline {url "xich.wrl"}]
+		}
+	]
+}

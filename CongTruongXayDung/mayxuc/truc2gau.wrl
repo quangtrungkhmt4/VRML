@@ -1,0 +1,23 @@
+#VRML V2.0 utf8
+
+Transform {
+	children [
+		Transform {
+			children [
+				Inline {url "truccau2.wrl"}
+			]
+		}
+	]
+}
+
+Transform {
+	children [
+		Transform {
+			rotation 0 0 1 -1.57
+			translation	-.51 0.1 0
+			children [
+				Inline {url "gaumayxuc1.wrl"}
+			]
+		}
+	]
+}
