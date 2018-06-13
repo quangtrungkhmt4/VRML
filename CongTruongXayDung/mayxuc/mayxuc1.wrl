@@ -1,9 +1,10 @@
 #VRML V2.0 utf8
 
+DEF	dau
 Transform {
 	children [
 		Transform {
-			translation	0 1 0
+			translation	0 0 50
 			children [Inline {url "thanmayxuc1.wrl"}]
 		}
 	]
@@ -11,8 +12,21 @@ Transform {
 Transform {
 	children [
 		Transform {
+			translation	0 0 50
 			scale 100 100 100
 			children [Inline {url "xich.wrl"}]
 		}
 	]
 }
+
+
+DEF	time TimeSensor {
+	cycleInterval 10
+	loop TRUE
+}
+DEF	quay OrientationInterpolator {
+	key	[0.0,0.5,1.0]
+	keyValue [0 1 0 0,0 1 0 0.8,0 0 1 -6.28318530718]
+}
+ROUTE time.fraction_changed	TO quay.set_fraction
+ROUTE quay.value_changed TO	dau.rotation

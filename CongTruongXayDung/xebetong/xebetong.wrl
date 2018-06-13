@@ -1,0 +1,243 @@
+#VRML V2.0 utf8
+
+#xetai
+Transform
+{
+	translation	0 0 .3
+	children [
+		Shape {
+			geometry Box { size	3 1 3 }
+			appearance Appearance {
+				texture ImageTexture {
+					url	"Images/sonxanh.jpg"
+				}
+			}
+		}
+	]
+}
+Transform
+{
+	translation	0 1 -1.1
+	children [
+		Shape {
+			geometry Box { size 3 1 0.2}
+			appearance Appearance {
+				texture ImageTexture {
+					url	"Images/sonxanh.jpg"
+				}
+			}
+		}
+	]
+}
+Transform
+{
+	translation 0 1.4 0
+	children [
+		Shape {
+			geometry Box { size 3 0.2 2.4}
+			appearance Appearance {
+				texture ImageTexture {
+					url	"Images/sonxanh.jpg"
+				}
+			}
+		}
+	]
+}
+Transform
+{
+	translation	0 1 1.15
+	children [
+		Shape {
+			geometry Box {size 3 1 0.1}
+			appearance Appearance {
+				material Material {
+					transparency 0.8
+				}
+			}
+		}
+	]
+}
+Transform {
+	translation	0 -0.25 -4.2
+	children [
+		Shape {
+			geometry Box {size 3 0.5 6 }
+			appearance Appearance {
+				texture ImageTexture {
+					url	"Images/maunhom.jpg"
+				}
+			}
+		}
+	]
+}
+#kinh
+Transform 
+{
+	translation	-1.45 1 0
+	children [
+		Shape {
+			geometry Box {size 0.1 1 2.4}
+			appearance Appearance {
+				material Material {
+					transparency .8
+				}
+			}
+		}
+	]
+}
+Transform 
+{
+	translation	1.45 1 0
+	children [
+		Shape {
+			geometry Box {size 0.1 1 2.4}
+			appearance Appearance {
+				material Material {
+					transparency .8
+				}
+			}
+		}
+	]
+}
+Transform
+{
+	translation	0 0.2 -1.6
+	children [
+		Shape {
+			geometry Box {size 3 0.4 0.8 }
+			appearance Appearance {
+				texture ImageTexture {
+					url	"Images/maunhom.jpg"
+				}
+			}
+		}
+	]
+}
+#banhxe
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	-3.2 -0.5 0
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	.2 -0.5 0
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	-3.2 -0.5 -6
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	.2 -0.5 -6
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	-3.2 -0.5 -5
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+Transform
+{
+	scale	0.5 0.5 0.5
+	rotation 0 1 0 1.57
+	translation	.2 -0.5 -5
+	children [
+		Inline { url "banhxe.wrl"}
+	]
+}
+
+#thungtronbetong
+Transform {
+		translation	0 1.8 -4.5
+	rotation 1 0 0 0.5
+	children [
+DEF thung Transform {
+	scale 2 2 3	   
+
+	children [
+
+		Shape {
+			geometry Sphere	{radius	1}
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"Images\maunhom.jpg"
+				}
+			}
+		}
+	]
+}
+	]
+}
+
+#thanhdobetong
+Transform {
+	translation	0 3 -7
+	children [
+		Inline {url	"dobetong.wrl"}
+	]
+}
+Transform {
+	translation	0 1.25 -7.3
+	children [
+		Shape {
+			geometry Box {size 0.4 3.5 0.2}
+			appearance Appearance {
+				texture ImageTexture {url "Images\maunhom.jpg"}
+			}
+		}
+	]
+}
+
+						# nguoi lai xe
+						Transform {
+							rotation 0 1 0 1.57
+							scale .12 .12 .12 
+							translation	0 .9 0
+							children [
+								Inline {url "Nguoilaixe.wrl"}
+							]
+						}
+
+
+
+DEF	time TimeSensor {
+	cycleInterval 2
+	loop TRUE
+}
+DEF	quay OrientationInterpolator {
+	key	[0.0,0.5,1.0]
+	keyValue [0 0 1 0,0 0 1 3.14159265359,0 0 1 -6.28318530718]
+}
+ROUTE time.fraction_changed	TO quay.set_fraction
+ROUTE quay.value_changed TO	thung.rotation
+
+
+
+
+
+		

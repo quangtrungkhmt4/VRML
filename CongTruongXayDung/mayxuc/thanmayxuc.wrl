@@ -842,3 +842,12 @@ Transform {
 }
 
 
+						# nguoi lai xe
+						Transform {
+							rotation 0 1 0 1.57
+							scale .03 .03 .03
+							translation	0 0.2 .6
+							children [
+								Inline {url "Nguoilaixe.wrl"}
+							]
+						}

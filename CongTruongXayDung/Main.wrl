@@ -224,7 +224,7 @@ Transform {
 
 Transform {
 	rotation  0 1 0 1.58
-	translation	0 1 0
+	translation	0 1 -30
 	scale 5 5 5
 	children [
 		Inline {url "nha/Nha_to.wrl"}
@@ -232,15 +232,16 @@ Transform {
 }
 
  Transform {
-	translation	-70 18 0
-	scale 5 5 5
+	translation	-90 18 80
+	scale 6 6 6
 	children [
 		Inline {url "nhakhungsat/toanha(MAIN).wrl"}
 	]
 }
 
  Transform {
-	translation	70 0.5 -5
+	 rotation 0 1 0 -1.57
+	translation	100 0.5 40
 	scale 5 5 5
 	children [
 		Inline {url "nha/Nen.wrl"}
@@ -249,13 +250,130 @@ Transform {
 
 # cancau
  Transform {
-	rotation  0 1 0 -1.58
-	translation	-35 7 0
-	scale 17 17.2 17
+	rotation  0 1 0 -1.57
+	translation	-65 7 0
+	scale 17 17.7 17
 	children [
 		Inline {url "cancau/CanCau1.wrl"}
 	]
 }
+
+#vat lieu
+Transform {
+	translation	-100 1 1
+	scale 40 40 40
+	children [
+		Inline {url "vatlieu/chong_thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	-100 1 -20
+	scale 40 40 40
+	children [
+		Inline {url "vatlieu/chong_thanh_sat.wrl"}
+	]
+}
+
+Transform {
+	translation	100 1 0
+	scale 40 40 40
+	children [
+		Inline {url "vatlieu/chong_gach.wrl"}
+	]
+}
+Transform {
+	translation	80 1 0
+	scale 40 40 40
+	children [
+		Inline {url "vatlieu/chong_gach.wrl"}
+	]
+}
+
+#may xuc
+Transform {
+	translation	50 3 0
+	scale .18 .18 .18
+	children [
+		Inline {url "mayxuc/mayxuc1.wrl"}
+	]
+}
+
+Transform {
+	translation	-20 3 20
+	rotation 0 1 0 3.14
+	scale .18 .18 .18
+	children [
+		Inline {url "mayxuc/mayxuc1.wrl"}
+	]
+}
+
+Transform {
+	translation	-100 3 -40
+	rotation 0 1 0 3.14
+	scale .18 .18 .18
+	children [
+		Inline {url "mayxuc/mayxuc1.wrl"}
+	]
+}
+
+DEF	mayxucOne
+Transform {
+	translation	-50 6 50
+	rotation 0 1 0 1.57
+	scale 15 15 15
+	children [
+		Inline {url "mayxuc/thanmayxuc.wrl"}
+	]
+}
+
+#xe be tong
+
+ Transform {
+	translation	100 3 -60
+	rotation 0 1 0 3.14
+	scale 5 5 5
+	children [
+		Inline {url "xebetong/xebetong.wrl"}
+	]
+}
+
+
+# xe lu
+DEF	xelu
+Transform {
+	translation	35 5 75
+	
+	scale 7 7 7
+	children [
+		Inline {url "xelu/thanxe.wrl"}
+	]
+}
+
+				DEF	timemove2 TimeSensor	{
+				cycleInterval 30
+				loop TRUE
+				}
+				DEF	move2 PositionInterpolator {
+				key	[0 1]
+				keyValue [-50 6 50, 20 6 50 ] 
+				}
+			
+				ROUTE timemove2.fraction_changed	TO move2.set_fraction
+				ROUTE move2.value_changed TO mayxucOne.translation
+
+				DEF	timemove1 TimeSensor	{
+				cycleInterval 30
+				loop TRUE
+				}
+				DEF	move1 PositionInterpolator {
+				key	[0 1]
+				keyValue [35 5 75, -20 5 75 ] 
+				}
+			
+				ROUTE timemove1.fraction_changed	TO move1.set_fraction
+				ROUTE move1.value_changed TO xelu.translation
+
+
 
 # máy xúc
 #DEF	mayxuc

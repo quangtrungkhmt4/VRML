@@ -282,14 +282,14 @@ Transform {
 	]
 }
 
-Transform {
-	translation	0 .12 -.4
-	children [
-		Shape {
-			geometry Box {size 1.05 .01 .65}
-			appearance Appearance {
-				material Material {diffuseColor .9 .9 .9}
-			}
-		}
-	]
-}
+#Transform {
+#	translation	0 .12 -.4
+#	children [
+#		Shape {
+#			geometry Box {size 1.05 .01 .65}
+#			appearance Appearance {
+#				material Material {diffuseColor .9 .9 .9}
+#			}
+#		}
+#	]
+#}

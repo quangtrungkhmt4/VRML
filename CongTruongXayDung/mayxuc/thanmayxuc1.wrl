@@ -142,5 +142,14 @@ Transform {
 	]
 }
 
+						# nguoi lai xe
+						Transform {
+							scale 2 2 2 
+							translation	-30 50 -20
+							children [
+								Inline {url "Nguoilaixe.wrl"}
+							]
+						}
+
 
 
