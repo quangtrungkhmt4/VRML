@@ -11,7 +11,11 @@ Transform {
 						Shape {
 							geometry Box {size 1 .15 .1}
 							appearance Appearance {
-								material Material {diffuseColor .9 .9 .9}
+								material Material {
+								diffuseColor .9 .9 .9 
+			   						ambientIntensity .0367
+									shininess .09
+								}
 							}
 						}
 					]
@@ -24,7 +28,11 @@ Transform {
 						Shape {
 							geometry Cylinder {radius .1 height .12}
 							appearance Appearance {
-								material Material {diffuseColor .9 .9 .9}
+								material Material {
+								diffuseColor .9 .9 .9 
+			   						ambientIntensity .0367
+									shininess .09
+								}
 							}
 						}
 					]
@@ -37,7 +45,11 @@ Transform {
 						Shape {
 							geometry Cylinder {radius .1 height .12}
 							appearance Appearance {
-								material Material {diffuseColor .9 .9 .9}
+								material Material {
+								diffuseColor .9 .9 .9 
+			   						ambientIntensity .0367
+									shininess .09
+								}
 							}
 						}
 					]
@@ -265,7 +277,11 @@ Transform {
 		Shape {
 			geometry Box {size .35 .15 .8}
 			appearance Appearance {
-				material Material {diffuseColor .9 .9 .9}
+												material Material {
+								diffuseColor .9 .9 .9 
+			   						ambientIntensity .0367
+									shininess .09
+								}
 			}
 		}
 	]
@@ -276,7 +292,11 @@ Transform {
 		Shape {
 			geometry Cylinder {radius .16 height .18}
 			appearance Appearance {
-				material Material {diffuseColor .9 .9 .9}
+												material Material {
+								diffuseColor .9 .9 .9 
+			   						ambientIntensity .0367
+									shininess .09
+								}
 			}
 		}
 	]

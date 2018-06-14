@@ -258,9 +258,25 @@ Transform {
 	]
 }
 
+ Transform {
+	translation	75 7 -10
+	scale 17 30 17
+	children [
+		Inline {url "cancau/CanCau2.wrl"}
+	]
+}
+
 #vat lieu
 Transform {
 	translation	-100 1 1
+	scale 40 40 40
+	children [
+		Inline {url "vatlieu/chong_thanh_sat.wrl"}
+	]
+}
+Transform {
+	translation	65 1 40
+	rotation 0 1 0 1.57
 	scale 40 40 40
 	children [
 		Inline {url "vatlieu/chong_thanh_sat.wrl"}
@@ -346,6 +362,58 @@ Transform {
 	scale 7 7 7
 	children [
 		Inline {url "xelu/thanxe.wrl"}
+	]
+}
+
+#nguoi
+Transform {
+	translation	85 10 -25
+	
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoixebetong.wrl"}
+	]
+}
+Transform {
+	translation	120 10 -25
+	rotation 0 1 0 3.14
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoixebetong.wrl"}
+	]
+}
+
+Transform {
+	translation	-90 10 -25
+	rotation 0 1 0 1.57
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoidungcanhxe.wrl"}
+	]
+}
+Transform {
+	translation	-70 10 15
+	rotation 0 1 0 3.14
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoidungcanhxe.wrl"}
+	]
+}
+Transform {
+	translation	120 10 15
+	rotation 0 1 0 3.14
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoidungcanhxe.wrl"}
+	]
+}
+
+Transform {
+	translation	120 10 45
+	rotation 0 1 0 3.14
+	scale .5 .5 .5
+	children [
+		Inline {url "nguoi/nguoidungcanhxe.wrl"}
 	]
 }
 
