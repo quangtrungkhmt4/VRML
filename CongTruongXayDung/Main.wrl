@@ -11,7 +11,7 @@ Background {
 DEF	nen Transform {
 	children [
 		Shape {
-			geometry Box {size 300 .1 200}
+			geometry Box {size 300 .1 250}
 			appearance Appearance {
 				texture	ImageTexture {url "images/cat1.jpg"}
 			}
@@ -22,7 +22,7 @@ DEF	nen Transform {
 
 # hàng rào
 Transform {
-	scale 1.5 1.3 2.0
+	scale 1.5 1.3 2.5
 	children [
 	
 			DEF	hangrao
@@ -204,7 +204,7 @@ Transform {
 Transform {
 	scale 1 1 .95
 	rotation 0 1 0 -1.57
-	translation	-81 0 50
+	translation	-81 0 25
 	children [
 		USE	container
 	]
@@ -212,7 +212,7 @@ Transform {
 Transform {
 	scale 1 1 .95
 	rotation 0 1 0 -1.57
-	translation	81 0 50
+	translation	81 0 25
 	children [
 		USE	container
 	]
@@ -224,16 +224,16 @@ Transform {
 
 Transform {
 	rotation  0 1 0 1.58
-	translation	0 1 -30
-	scale 5 5 5
+	translation	0 1 -45
+	scale 7 7 7
 	children [
 		Inline {url "nha/Nha_to.wrl"}
 	]
 }
 
  Transform {
-	translation	-90 18 80
-	scale 6 6 6
+	translation	-90 25 100
+	scale 8 8 8
 	children [
 		Inline {url "nhakhungsat/toanha(MAIN).wrl"}
 	]
@@ -241,7 +241,7 @@ Transform {
 
  Transform {
 	 rotation 0 1 0 -1.57
-	translation	100 0.5 40
+	translation	100 0.5 60
 	scale 5 5 5
 	children [
 		Inline {url "nha/Nen.wrl"}
@@ -251,8 +251,8 @@ Transform {
 # cancau
  Transform {
 	rotation  0 1 0 -1.57
-	translation	-65 7 0
-	scale 17 17.7 17
+	translation	-65 7 10
+	scale 17 22 17
 	children [
 		Inline {url "cancau/CanCau1.wrl"}
 	]
@@ -334,7 +334,7 @@ Transform {
 
 DEF	mayxucOne
 Transform {
-	translation	-50 6 50
+	translation	-40 6 50
 	rotation 0 1 0 1.57
 	scale 15 15 15
 	children [
@@ -359,6 +359,16 @@ DEF	xelu
 Transform {
 	translation	35 5 75
 	
+	scale 7 7 7
+	children [
+		Inline {url "xelu/thanxe.wrl"}
+	]
+}
+
+DEF	xeluTwo
+Transform {
+	translation	-20 6 110
+	rotation 0 1 0 3.14
 	scale 7 7 7
 	children [
 		Inline {url "xelu/thanxe.wrl"}
@@ -423,7 +433,12 @@ Transform {
 				}
 				DEF	move2 PositionInterpolator {
 				key	[0 1]
-				keyValue [-50 6 50, 20 6 50 ] 
+				keyValue [-40 6 50, 20 6 50 ] 
+				}
+
+				DEF	move3 PositionInterpolator {
+				key	[0 1]
+				keyValue [-20 6 110, 20 6 110] 
 				}
 			
 				ROUTE timemove2.fraction_changed	TO move2.set_fraction
@@ -440,6 +455,9 @@ Transform {
 			
 				ROUTE timemove1.fraction_changed	TO move1.set_fraction
 				ROUTE move1.value_changed TO xelu.translation
+
+				ROUTE timemove1.fraction_changed	TO move3.set_fraction
+				ROUTE move3.value_changed TO xeluTwo.translation
 
 
 
