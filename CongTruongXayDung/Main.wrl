@@ -8,6 +8,18 @@ Background {
 
 }
 
+Sound {
+      source AudioClip {
+            url    "amthanh/music.mp3"
+            loop   TRUE
+     }
+     minFront 1140.0 #vung nghe ro
+     minBack  1140.0
+     maxFront 1180.0	#vung khong nghe
+     maxBack  1180.0
+     location 0 0 0 #vi tri phat
+   }
+
 DEF	nen Transform {
 	children [
 		Shape {
